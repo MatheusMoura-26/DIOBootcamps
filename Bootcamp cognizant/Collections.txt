@@ -1,0 +1,60 @@
+#Collection
+- é um objeto que agrupam múltiplos elementos(Variáveis ou obketos) dentro de uma única unidade.
+-Server para armazenar e processar conjutos de forma eficiente
+-Antes do JDK, as coleções eram feitas através de array
+
+*Composição
+-Interfaces: é um contrato que quando assumido por uma classe deve ser implementado
+-Implamentação: São as materializações, a codificação das interfaces
+-Algoritimos: Sequência lógica, finita e definida de instruções que devem ser seguida para resolver um problema
+
+
+*Interface List
+-Java.Util.List
+-Elementos duplicados e ordem de inserção
+-Array List - Deve ser usado quando são necessarias mais operações de pesquisa
+-LinkedList - Deves ser usado quando são necessárias mais operações de inserção e exclusão
+-Vector
+
+
+*Interface Set
+-Java.Util.List
+-Não possui elementos duplicados
+-Não possui índice
+Hashset- Utiliza hashmap - não mantem a ordem na inserçã dos elementos - melhor performace - max 1 elemento null
+-Linked hashset - mantem a ordem de inserção dos elementos - max 1 elemento null
+-TreeSet- ordem natural
+
+*Interface Map
+-Java.util.Map
+-Eelemnetos únicos(key) para cada valor(value)
+- não estende o collections
+-HashTable - um pouco antigo e pouco utilizado atualmente - list of buckets
+-TreeMap- Usado bastante para ordenação - ordem natural - não permite chaves nulas - 
+-HashMap- melhor performace - Elementos ordenados de forma aleatória
+-LinkedHashMap- melhor performace - ordem de acordo com a ordem de inserção - double linkedList of bucketes
+
+#Stream API
+
+*Classe anônima
+- é uma classe não recebeu um nome e é declarado e instaciado em uma única insrução.
+-Você deve considerar o uso de uma classse anônima sempre que você precisa para criar uma classe que será instanciado apenas uma vez
+- é uma classe sem nome que pode ser criada dentro de outra
+
+*Funcional interface
+-Qualquer interface com um SAM (Single abstract Method) é uma interface funcional e sua implementação pode ser tratada como expressões lambda
+
+Streams apis que vamos vê:Comparator, consumer, Function, predicate
+
+
+*Lambda
+-Uma função Lambda é uma função sem declaração, isto é, não é necessário colocar um nome, um tipó de retorno e o modificador de acesso. A ideia é que o método seja declarado no mesmo lugar em será usado. 
+-As funções lambda em java tem a sintaxe definida como(argumento) -> (corpo)
+-Simplificar classe anônima 
+
+*Reference method: um novo recurso
+ introduzido a partir do java 8 - utilização através do simbolo "::" - simplificar uma lambida
+
+
+*Streams API
+-Programação funcional combinada com expressões lambda

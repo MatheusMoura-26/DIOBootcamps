@@ -1,0 +1,22 @@
+#JWT
+-Para manter a segurança das suas apis , uma das formas mais comuns de atutenficação com spring boot é JWT, que permite a gereção de uma chave que chamamos de Token, que ao ser gerado será utilizado nas demais Apis por um determinado tempo
+-JSON Web Tokens
+*Auth0
+-Auth0 implementa as regras para a geração do Token JWT de maneira fácil e simples
+-O Componente possui a implementaççao de diversos algoritimos para simlificar e geração e leitura do token
+
+#Spring boot + Azure Security center
+
+*Quando inclímos as dependências do Azure, ele passa a gerenciar a segurança da aplicação,sendo necessário apenas a inclusão de algumas anotações, chaves do Azure e pronto, sua aplicação jaá está sendo validada
+
+*Microserviços
+-Separamos a aplicação em domínio
+
+
+*Configuration server
+-Centralizando as configurações
+-Por padrão as configurações do Spring são feitas em um arquivo. O Configuration Server é um recurso  para que as configurações sejam armazenadas em um repositório Git. e possam ser alteradas sem parar seus microserviços
+
+*Processamento Distribído
+-Necessário fazer balanceamento de carga
+-Uma das soluçoies é a utilização do Eureka Server, Criado pela Netflix para fazer a distribuição dos seus serviços por região e o gerenciamento de trafégo e carga. 

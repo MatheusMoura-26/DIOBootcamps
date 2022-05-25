@@ -1,0 +1,45 @@
+#Junit4
+-Framework simples e de código aberto
+-teste unitários 
+-organização do código
+-Tetsar sempre
+
+*Asserts
+-Indicam se resultado coincide com o esperado em determinado ponto do código
+-Afirmação 
+-Import Static 
+-Ordem dos parâmetros
+
+*Rules
+-permite que faça-mos algo antes do método rodar
+-Interface testrule
+
+
+#Explorando Mocks e Asserts
+*Mocks
+-Objetos Mocks, Objetos simulados ou simplemente mocks
+-São objetos que simulam comportamentos de objetos reais
+-Os mocks tem algumas limitações
+
+*Principais frameworks
+-Mockito
+-EasyMock
+-PowerMockito
+
+
+*Asserts
+-São métodos utilitarios para verificar se um caso de teste teve sucesso ou não
+
+*Hamcrest
+-é um framework para teste de unidade
+
+*Assertj
+-Permite escrever Asserts de mais fácil compreesãso
+-passar um assert para assertdeathe
+
+
+#TDD
+-Técnica de desenvolvimento de software guiado por testes
+-escreva um teste -> fale ->codifique -> passe no teste - refatore
+-permite obter códigos com menos defeitos
+-rapódo feedback

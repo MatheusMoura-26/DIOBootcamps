@@ -1,0 +1,71 @@
+*O que é?
+-Um framework para facilitar muita coisas
+- Criadp pela spring source em 2012
+-Facilita setup de projetos Spring
+-Sem necessidade de criar arquivos de configurações
+-foco em produtividade
+-Maior desenvolvimento em valor
+
+*Quais problemas ele resolve?
+-Produtividade: setup simplificado
+-Starters: depêndecias auto configuráveis pelo spring boot
+-Execução simplificada: sem deploy externo
+-Configurções: arquivo externo para configuração
+-Valor: maior tempo em desenvolvimento
+
+
+*Configuração manual
+-Múltiplos arquivos XML
+-Configuração manual do Spring MVC: Dispatcher, servelet,web.xml,spring-mvc.xml
+-Configuração manual do benas Spring
+-Aplicando tambem ao spring Data security
+
+*Auto Configuration
+-Starters:dependências simplificadas e auto configuráveis
+-Identificação e configuração automática da dependência
+-Spring Boot detecta as dependências e configura para nós!
+
+*Antes do Spring boot
+-Springtradicional: war precisa de servidor de aplicações
+-Dependência de um container web ou servidor de aplicação 
+-Complexidade par aconfigurações
+-Atualizações frequentes, junto com versão do projeto
+-gerenciamento manual de aplicações
+
+
+*Fatjar / UberJar
+-Artefatto do projeto pronto para execução
+-Container web embutido na geração e execução tomcat
+-Deploy embarcado com outros containers são opcionais
+-Dependências principais do projeto embarcadas
+-Execução direta atráves de um único java-jar
+-Podemos também gerar o war tradicional
+
+
+*Spring boot Profiles
+-Configurações própias para cada ambiente
+ 
+
+#Simplificando projetos java como o spring boot
+-Core conteiner: base do framework
+*Beans
+-Um bean se trata de um objeto que é instanciado, montado e gerenciado por um container do Spring através de Inversão de Controle (IoC) e Injeção de Dependências (DI).
+
+-ciclo de vida de um bean: Container iniciado -> Bean é instanciado -> Dependências  são injetadas -> Chamada do método de inicialização -> bean é utilizado -> bean é descartado
+
+Duas formas para configurar o benas: É possível configurar um Bean de duas formas por arquivos XML ou através de anotações.
+
+Em XML seria preciso definir a tag <bean> dentro de uma tag principal <beans> passando o path da classe assim o Spring saberá quais classes gerenciar a criação de instâncias e a injeção de dependências.
+
+
+*BeanFactory ou 
+ApplicationContext?
+-BeanFactory fornece um mecanismo de configuração avançada capaz de gerenciar objetos de qualquer natureza. 
+-ApplicationContext se baseia na BeanFactory (é uma subinterface) e adiciona outras funcionalidades, como integração mais fácil com os recursos AOP do Spring, manipulação de recursos de mensagem (para uso na internacionalização), propagação de eventos e contextos específicos da camada de aplicativo, como o WebApplicationContext para uso em aplicativos da web.
+ 
+
+*Inversão de Controle
+-Inversão de Controle (ou IoC - Inversion of Control) é um processo onde se inverte o fluxo de comando de um programa. É uma ideia desacoplar ou remover dependências do objeto e fornecer controle para outra camada. Este objeto delega a tarefa de construir dependências para um contêiner IoC.
+ 
+*Injeção de dependência
+-A Injeção de Dependência (ou DI - Dependency Injection) define quais classes serão instanciadas e onde serão injetadas quando for necessário. Existem três formas de aplicar o DI, por injeção de construtor, setter e interface. O Spring Framework aplica a IoC quando necessário também utilizando o DI.

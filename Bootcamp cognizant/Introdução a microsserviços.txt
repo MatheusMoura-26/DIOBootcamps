@@ -1,0 +1,42 @@
+*Monolítico
+-HTML- JS - MVC) - serviço(Lógica de negócio) - acesso a dados
+-Padrão de arquitetura 
+-Uma solução rápida
+-Aplicar para testes
+
+*Microserviço
+-Quebra as camadas do monolíticos em pequenas estruturas
+-Conjutos de microserviços fazendo crud
+-Entrega de infrmações Restfull
+
+*Back-end For Front-end BFF
+-API
+-Unica requisão aos microserviços
+-Ganho na performace , na quantidade de dados necessários
+-Tanto devs back como fronts tem demanda no BFF
+-Aliamento entre as equipes
+-Comunicação com os microserviços
+-Bff também vai criar as conexões com o banco
+-Uma forma de entregar para o front end uma lógica mais exata
+-Uma coisa a menos na lógica
+-Um BFF para web outro Para mobile
+
+*Domain-Driven Design
+-Filosofia combinada com desing Patterns
+-Fácil de entender , difícil de aplicar
+
+*TDD
+-Testar e desenvolver
+wed win refactor
+-Refatoração de código
+-Um guia para criar uma modelagem com base no negócio
+-Domine a teoria e não a prática
+-Entender o negócio do projeto
+- o modelo é um conhecimento destilado
+
+*DDD - lite
+-ddd não é quebrar a arquitetura em camadas
+-Score card
+*BDD  
+-Mistura do TDD DDD
+-Criar estura de negócio + estrutura lógica

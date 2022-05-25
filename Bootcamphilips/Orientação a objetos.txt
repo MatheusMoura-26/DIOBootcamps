@@ -1,0 +1,32 @@
+*Paradigmas
+-imperativo e declarivo
+* POO é imperativo
+*Pilares
+-Herança
+-Polimorfismo
+-Encapsulamento
+-Abstração
+
+*Abstração
+-tornar um problema complexo cada vez mais simples
+
+*Herança
+-O objeto filho herda propiedades e métodos do objeto pai
+
+*Encapsulamento
+-Cada classe tem propiedades e métodos independentes do restante do código
+
+*Polimorfismo
+-Objetos podem herdar a mesma classe pai, mas se comportarem de forma diferente quando invocamos seus métodos
+
+*OOJS
+
+*Protótipo
+Todos os objetos JavaScript herda, propiedades e  métodos de um prototype. O objeto object.prototype está no topo desta cadeia.
+
+
+*Classes
+-Syntatic sugar: Uma sintaxe feita para facilitar a escrita
+- O JS não possui classes nativamente. Todas as classes são objetos e a herença se dá por protótipos.
+
+

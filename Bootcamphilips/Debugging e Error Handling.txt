@@ -1,0 +1,20 @@
+*ECMAScript Error
+-Erros que acontecem em tempo de execução
+- composto por: Mensagem, nome, linha, call Stack
+
+*DomeExcepeption
+_Erros relacionados ao Document Object Model (DOM)
+
+* Throw
+- Quando você desejar lançar um erro
+
+* Tratamento de erros Try catch
+-Manipulação de erros
+
+*Finally
+-Instrução que sera chamada independente de ter um erro ou não
+
+*Objeto error
+-Aceita parametros 
+-O erro pode ter um nome
+-Stack ira dizer onde esta o erro

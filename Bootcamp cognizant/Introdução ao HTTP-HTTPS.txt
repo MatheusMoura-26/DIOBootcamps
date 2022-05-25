@@ -1,0 +1,120 @@
+*PROTOCOLO HTTP
+-HyperText Transfer Protocol
+-Definidos pelo RFCs 1945  e 2116
+-Protocolo de comunicação: reage a estrutura das mensagens
+-Browser -> implementa o cliente HTTP
+-Servidor -> host objetos web
+
+-Cliente: Mensagens - request HTTP - requesita objetos web
+-Servidor: Response HTTP - TCP
+
+-Utiliza arquitetura Client-Server
+-Protocolo de Stateless:Ele não quais informações já foram solicitadas: não precisa guardar info dos clientes
+
+
+-Mensagens HTTP: Request e Response
+
+*Request
+-Estrutura: Método HTTP, Versão, Url, Conexão, Agente que realizou o request, preferencia de linguagem do cliente
+
+
+*Métodos HTTP
+-Get:Solicita um recurso do servidor
+-Head: Get sem corpo de respostas
+-Post: Submete uma entidade a um recurso
+-Put: Substituição  de recursos pelos dados de requisição
+-Delete: Remoção de um recurso
+-Trace: Chamada de loop-back a um determinado recurso(Utilizado em teste)
+-Option:Opções de comunicação com recurso
+-Connect: Tunelamento identificado pelo recurso
+-Patch: Modificação parcial do recurso -RFC 5789
+
+-Métodos seguros:Get. Head, Option - Não alteram estado do projeto ou servidor
+
+
+*Response
+-Status Line: versão do protocolo -> Status code-> satus da mensagem
+-Header Line: Conexão encerrada -> dados da mensagem -> content-type
+-Entity Body
+
+Status code:
+-200 - ok: request bem sucedida  e objeto enviado
+-301- Moved permanently: objeto realocado nova url no campo location
+-400 - Bad Request: resposta genérica- servidor não entendeu a mensagem
+-404 - Not Found: documento solicitado inexistente
+-505 - : Versão do protocolo não suportada pelo servidor
+
+
+*Cookies
+-RFC 6265
+-Rastreamento
+-Identificação
+-Restrição ou fornecimento de funções
+
+-Cookie header line:response e request
+
+-Cookie file: Mantido no cliente  e servidor, o browser gerencia
+
+-Banco de dados Back-end: web site
+
+
+*Criptografia por chave
+-Uma vez usada a chave para criptogrrafar , só sera aberta com o uso da chave
+-Assimétrica: chave privada:assinatura -criptografia    Chave pública: verificação de autencidade
+
+  
+-Simétrica: Chave uníca privada: cifra de cesar, cifra de fluxo: Sequencia de fluxo de bits, cifra de bloco: ssl, pgp
+
+*Cifra de Bloco: Bloco de bits
+-Manpamaento 1-1
+-Mapeamento por permutação
+-Protocolos :DES, AES, 3DES
+
+-Certificar uma chave: Comprovar autenticidade
+
+-Entidade certificadora: verificação de identidade , emissão de certificados, alta confiabilidade
+
+-padrões de autoridade certificadoras: IETF ITUX.509 , RFC 1422
+
+
+*Protocolo SSL
+-Secure Socker Layer 
+-Segurança para conexões TCP
+-Confidenciabilidade
+-Integridade
+-Autenticidade ponta a ponta
+-3º versão chamada TLS RFC 4346
+
+*Operações
+-Operação: Handshake , Key derivation , data transfer
+
+-1ºEstabelacer conexão TCP: Tcp Start, response, confirm
+
+-2ºVerificação  de autenticidade: SSH hello, certification
+
+3º Envio da Master Secret key: Ems
+
+A partir do MS  surgem outras  4 chaves
+
+-Por fim os dados são enviados de uma ponta a outra
+
+*LGPD 2018
+Nº 13.709/2018
+
+*O que é uma API?
+-Application Programming Interface
+-Coleção de métodos disponibilizados por um serviço para interação indereta
+
+-Rotinas e padrões 
+-Aceso :Sistema ou plataforma web
+
+-pROGRAMA DE SUPORTE
+-Possui partes funcionais chamadas pacotes
+
+*Propiedades de uma API
+-Acesso a dados
+-Esconder complexidade: Executar rotinas e funções complexas, sendo tranparente, faz o dev focar no app
+-Estender funcionalidades:Comunicação entre aplicativos
+-Segurança:Proteger informações
+
+

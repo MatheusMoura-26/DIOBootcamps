@@ -1,0 +1,155 @@
+ESTRUTURAS DE DADOS
+-O BIT
+-Organizar dados em memória
+-Mecanismo de organização que atedem diferentes requesitos de processamento
+
+*Tipos de memória:
+-Memória primária: não armazenam dados sem energia
+-Memória secundária:  armazenam dados sem energia
+
+
+
+
+*Conceito de nó
+
+Memória Ram: variós chips de milhões de bits capazes de guardarem informações
+
+*Atribuição e referência
+-As atribuições em java são por cópia de valor sempre.
+-Com tipo primitivo, copiamos o valor em memória.
+-Com objetos copiamos o valor da referência em memória, sem duplicar o objeto. 
+
+*Generics:
+-Evitar casting execessivo
+-Evitar códigos redundantes
+-Encontrar erros em tempo de complilação
+
+*Unknow Wildcard
+- passa a Lista normal
+
+*UpperBounded Wildcard
+-Usa como se fosse um coringa 
+-Usa herença
+
+*LowerBounded Wildcard
+-Usa herença mais apanas para atras da classe determinada
+
+*Convenção
+-k -> Key - ex: Map<k>
+V -> Value - ex: Map<v>
+E -> Element - ex: List<E>
+T -> Type -
+? -> genérico
+
+#Pilhas - LIFO
+-LIFO
+-Last in first out
+-O ultímo a entrar é o primeiro a sair
+
+*Método top
+- Armazena informações de determinado nó
+
+*Método pop
+- retira nó da pilha
+
+*Método push
+-Inserir o novo nó
+-Gerar uma nova refência de topo da pilha
+
+
+*Método is empty
+-verificarar a referencia para entrada de novo nó
+-Dizer se a pilha está vazia ou não 
+
+
+#FILA - FIFO
+-First in First out
+-O primeiro elemento que entra é o primeiro a sair
+
+
+*Métodos
+-enqueue
+-dequeue
+-isempty
+
+
+#Listas encadeadas
+-Parece com uma fila
+
+*Métodos 
+-Add() - Opção de adcionar um nó em qualquer posição da lista
+-remove() - Opção de remover um nó em qualquer posição da lista
+-isempty() - pegar a referência de determinado nó sem excluí-lo
+-get()
+
+
+#Listas duplamente encadeadas
+*Principal diferença para a outra lista
+-Seria o fator de cade nó ter duas referências, anterio e próximo
+-Referencia do primeiro nó, referência ultimo nó
+
+#Listas circulares
+-Estrutura igual a lista encadeada
+-A diferença é que a referência do ultimo nó está apontado para o primiero no
+ 
+
+#Arvores
+- Estrutura de dados bidimensional
+-Não linear
+-Constituída de nós que representam um modelo hierárquico
+-Armazenam dados com base em relações de dependências
+-Listas, filas, pilhas são estruturas lineares
+
+*Utilização:
+-Sistemas de arquivos
+-BD
+-Interfaces gráficas
+-Páginas web
+
+*O nome
+-Parece uma árvore de cabeça para baixo
+-no topo esta a raiz
+- e depois vem as folhas
+
+*Alguns conceitos de uma árvore Hierárquica
+-Nó
+-Raiz
+-Pai e Filho 
+-Irmão - nós que tem o mesmo pai
+-Nível de um nó(Posição hierárquica em relação a raiz)
+-altura ou profundidade(grau máximo dos nós)
+-Folha ou nó terminal - nó que não tem filhos
+-Nó interno - nós que tem filhos
+-Grau de um só nó - a partir da quantidade de nós filhos
+-Subárvore - a partir de um nó da árvore principal
+-obs: saber diferenciar nível e grau do nó
+
+*Tipos de árvores:
+-árvore binária
+-árvore  AVL
+-árvore ordenada
+-árvore Rubro-negra
+-Árvore 2-3
+-Arvore 2-4
+-árvore B
+-árvore B+
+-árvore hiperbólica
+
+*Árvore Binária
+-Posição dos nós
+-Maiores à direita
+-Menores à esquerda
+
+*Operações básicas
+-Inserção
+-Exclusão
+-Exibição
+
+*Atravessamento
+-In-ordem
+-pré-ordem
+-Pós-ordem
+
+#Principais implementações
+*Equals() e hashcode()
+-Igualdade

@@ -1,0 +1,18 @@
+*O QUW É API?
+-Application program interface
+-Pense em API como a camada que esconde as regras e possibilita uma comunicação externa
+-Facilita muito a integração
+-Existem várias metodologias( ou Arquiteturas),
+por exemplo:SOA,rest, uso por meio de SDK,
+
+
+*HTTP METHODS
+
+-GET: Sempre obtém dados
+
+-POST: Cria um novo registro ou recurso
+
+-PUT: Atualiza um registro existente
+
+-DELETE: Remove um registro existente
+

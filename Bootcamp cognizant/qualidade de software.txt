@@ -1,0 +1,89 @@
+*Tipos teste 
+-Teste de funcionalidade
+-Teste de usabilidade
+-Teste de Performace
+-Teste de segurança
+
+*Técnicas de teste
+-Teste funcional(Black-box)
+-Teste estrutural(White-box)
+
+*Níveis de teste
+-Teste de unidade
+-Teste de integração
+-Teste de sistema
+-Teste de aceitação(visão do cliente)
+
+*Processo de teste
+-Planejar -> Projetar -> executar -> Entregar
+
+*Planejar: 
+-Estratégia, Plano de testes, Cenários Básicos 
+-Ferramentas Azure, jira, TestLink
+-Leitura de requesitos -> Levamento de dúvidas -> ideias de teste -> Estimativa
+
+-Técnicas para testear
+-Partição pr equivalência(Equivalence Partition)
+-*Análise do valor limite(Boundary value analysis)
+-1.Identificar as partições equivalentes e os ranges de valores relacionados
+2. Identificar os valores máximos e mínimo(Resultando em partições válidas e inválidas.)
+3. Desenvolver as conddições de testes para cada valor limite identificzado
+
+-*Tabela de Decisão(Decision table)
+-Ajuda a testar regras de negócios 
+-Analisa condições e ações
+-*Testes por transição de Estados
+-Diagramas
+ 
+
+*Projetar
+-Elaborar casos de testes, Técnicas de testes -
+-Ferramentas Azure, jira, TestLink
+-Nome/Título -> Objetivo -> Pré-condições -> Passo a passo -> Resultado esperado
+
+-*xecução:Bugs, Execução dos testes,evidências  -Bugzila, jira, Mantis , Redmine
+-Posso testar:?
+-Ambiente está atualizado
+-Tenho todos os acessos necessários
+-Preciso de alguma massa de teste?
+-*Evidencias de erro:
+-print do erro
+-Descrição do passo a passo de como chegar ao problema
+-Descrição do erro mostrado na tela
+-Navegador sistema operacional usado
+-Versão do sistema testado
+
+-Executar
+-Print do resultado esperado
+-Nome ou id do caso de teste
+-Data da execução e versão do sistema realizado
+-Ciclo do teste
+
+
+Entregar:StatusReport, Evidências de testes - Azure, jira, TestLink
+
+
+
+
+*Testes Estáticos
+-Verificação de diagrmas
+-código
+-Plano de teste
+-Script de teste
+-Manual de usuário
+-Pssibilidade de executar esse teste antes de rodar o software
+
+*Testes exploratório
+-Teste sem um roteiro prévio
+
+
+*Quando parar os testes?
+-Algumas narreiras:
+-Tempo insuficiente
+-Orçamento curto
+-falata de capacitação para identificar risco
+-Flata de capacitação dos desenvolvedores para exectar testes unitários
+
+-Devemos testar até ter confiança nos requesitos, testar todos os testes previstos
+
+

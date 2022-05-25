@@ -1,0 +1,8 @@
+*Mono vs SOA vs Micro
+-SOA não é a solução
+-Tomar cuidado para quando passar para microserviços não só dividir o problema e sim resolve-lo
+
+*Microserviço
+-Rest API - Application - Data Source
+
+- +Config server

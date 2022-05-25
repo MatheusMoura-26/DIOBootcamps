@@ -1,0 +1,2 @@
+*Uma linguagem que facilita a vida do dev de JS
+

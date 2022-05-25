@@ -1,0 +1,64 @@
+#Rest
+-Representational State Transfer
+-Estilo arquitetural
+-Interoperável e agnóstico a linguagem de tecnologia
+
+#Constraints
+*Interface Uniforme
+-Baseado em recursos, interfaces por onde o cliente se comunica com o servidor
+
+*Cliente -Servidor
+-Cliente e servidor podem existirem e serem desenvolvidos separadamente, são independentes
+
+*Sem estado
+-Oservidor não guarda estado, sessão, ,necessário sempre, a cada requisição, caso necessário, informar o servidor de quem está requerendo o dado específico
+
+*Cache
+-Funcionalidade que elimina, dado algumas configurações, voltar ao servidor, se a requisição se repitir dentro de um tempo. Cache pode ser gerenciado em modo client ou server side.
+*Caching
+-Cpacidade de manter cópias de um responde armazenadas por um tempo determinado
+-tempo de expiração
+-cache-control
+-E-tag
+-last Modified
+
+
+*Versionamento
+-Permite evolução de uma API sem trazer quebra de contratos para os cliente (mudanças em request e reponse, remoção de API)
+
+tipos:
+-URI
+-Header Custumizado: accept-version: v1
+-Content negociation(Accept Header):json, json versiuon 1
+
+
+*Códigos HTTP:
+-1xx - informações
+-2xx - sucesso na requisição
+-3xx - redirecionamento
+-4xx: erro no lado do cliente
+-5xx: Erro no lado do servidor
+
+*Idempot~encia
+-Uma requisição idempotente é aquela que , independente da quantidade de vezes que execute, o efeito é o mesmo que da primeira execução
+
+-Post - altera estado no servidor , cria recurso , logo , não idempotente
+- get, put, delete, head, option trace , são idempotentes
+
+
+*Problema N+1
+
+
+*API first
+  
+*Sistemas em camadas
+-Por ser sem estado, permite distribuir as implantações e ou recursos, ex: API em um servidor , data storage em outro e sistemas de autenticação em um terceiro servidor
+
+*Código sobre demanda(opcional)
+-Possibilidade de retornar "Executaveis " via API para rederização de algum componente necessário
+
+
+*Ressource Naming guide
+-Estratégia para expor recursos(plural ou singular)
+-Estrutura de nomes para recuperar recursos, aramazenar detalhe , nomes compostos, passar parametros(query param, path param)
+-URI(endereçamento para um determinado recurso) 

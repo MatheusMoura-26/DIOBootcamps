@@ -1,0 +1,7 @@
+*JavaScript é assicrono
+
+*Promises
+-Inicialmente, seu valor é desconhecido. ELa pode, então, ser resolvida ou reijeitada.
+-3Estado : Pending , fulfilled , rejected
+
+*Async / await

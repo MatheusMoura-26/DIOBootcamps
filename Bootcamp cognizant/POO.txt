@@ -1,0 +1,33 @@
+#POO vs Programação estruturada
+*Programação estruturada
+-Programação estruturada é linear
+-Decisões feitas de forma ordenada
+
+-Problemas:
+-Difícil manutenção
+
+*POO
+-objeto: representação programática de algo. ex: carro
+- Ações e atributos que podem ser tomadas ou executadas por esse carro.
+
+*Funções estáticas
+-programação estruturada dentro de POO
+-resolver por ela mesma, sem dependeências externas
+-Parâmetros de entrada são simples e diretos
+-O resultadi de saída é simples e direto?
+
+
+*Classe e objeto
+-Um representação de dados em objetos, ou entidades para o processamento de outros objetos
+
+*Associação de classes
+-É quando usamos uma classe dentro de outra classe
+
+*Herança
+-Diferenciação de classe pai e filhos
+
+*Encapsulamento
+-É a capacidade de proteger alguns dados ou funcionalidade da classe,não permitindo que seus consumidores possam acessá-la
+
+*Polimorfismo
+-Ceriar funções e métodos que podem ter o mesmo nome, mas diferentes processamentos
